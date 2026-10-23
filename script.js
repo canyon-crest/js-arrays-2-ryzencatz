@@ -36,7 +36,7 @@ for (let i=0; i<colors.length; i++) {
 // then calculate and display statistics.
 
 // STEP 3: Create an empty array called "numbers" using let.
-        let numbers = [];
+let numbers = [];
 
 // STEP 4: Use a for loop that runs 5 times (i = 0 to 4).
 //         Inside the loop:
@@ -44,7 +44,7 @@ for (let i=0; i<colors.length; i++) {
 //         b) Use parseFloat() to convert the input to a number
 //         c) Use .push() to add the number to the array
 for (let i=0; i<5; i++) {
-    numbers.push(parseFloat(prompt("Enter number "))+(i+1))
+    numbers.push(parseFloat(prompt("Enter number ")))
 }
 
 // STEP 5: Print all the numbers on one line.
