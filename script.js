@@ -79,7 +79,7 @@ console.log("Average: " + String(sum/numbers.length))
 //         A number is even if number % 2 equals 0.
 //         Use a for loop and an if statement.
 //         Print: console.log("Even count: " + count)
-let count
+let count = 0
 for (let i=0; i<numbers.length; i++) {
     if (numbers[i] % 2 === 0) {count++}
 }
