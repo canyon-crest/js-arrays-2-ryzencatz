@@ -64,16 +64,17 @@ console.log("Numbers: " + result)
 
 // STEP 6: Calculate the sum of all numbers.
 //         Use a for loop to add each number to a running total.
-let sum
-for (let i=0; i<numbers.length; i++) {
+let sum = numbers[0]
+for (let i=1; i<numbers.length; i++) {
     sum += numbers[i]
 }
 console.log("Sum: " + sum)
 // STEP 7: Calculate the average.
 //         Average = sum / numbers.length
-        Print: console.log("Average: " + String(sum/numbers.length))
-//         (No rounding needed)
-
+        // Print: console.log("Average: " + String(sum/numbers.length))
+        //         (No rounding needed)
+console.log("Average: " + String(sum/numbers.length))
+        
 // STEP 8: Count how many numbers are even.
 //         A number is even if number % 2 equals 0.
 //         Use a for loop and an if statement.
